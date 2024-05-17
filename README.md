@@ -14,9 +14,9 @@ import store from './store';
 import App from './App';
 
 ReactDOM.render(
-  <Provider store={store}>
+  <provider store={store}>
     <App />
-  </Provider>,
+  </provider>,
   document.getElementById('root')
 );
 
