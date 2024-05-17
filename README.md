@@ -6,9 +6,9 @@
 <h3>2 Provide the Store to Your React Application:</h3>
 <p>Use the Provider component from react-redux to make the store available to your entire app.</p>
 <code>
-  <Provider store={store}>
+  (<Provider store={store}>
     <App />
-  </Provider>;
+  </Provider>)
 </code>
 
 <h3>3 Dispatch Actions and Select State in Your Components:</h3>
