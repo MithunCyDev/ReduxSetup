@@ -5,6 +5,22 @@
 
 <h3>2 Provide the Store to Your React Application:</h3>
 <p>Use the Provider component from react-redux to make the store available to your entire app.</p>
+<code>
+  // src/index.js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import store from './store';
+import App from './App';
+
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('root')
+);
+
+</code>
 
 <h3>3 Dispatch Actions and Select State in Your Components:</h3>
 <p>Use useDispatch to dispatch actions and useSelector to access the state in your React components.</p>
