@@ -8,7 +8,7 @@
 <code>
   <Provider store={store}>
     <App />
-  </Provider>,
+  </Provider>;
 </code>
 
 <h3>3 Dispatch Actions and Select State in Your Components:</h3>
